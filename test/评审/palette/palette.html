@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画布</title>
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/palette.js"></script>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <label class="iconfont icon-line tools" active="true" id="line"></label>
+            <label class="iconfont icon-xuxian tools" id="dashed"></label>
+            <label class="iconfont icon-duobianxing tools" id="poly"></label>
+            <label class="iconfont icon-juxing tools" id="rect"></label>
+            <label class="iconfont icon-yuan tools" id="circle"></label>
+            <label class="iconfont icon-unie60d tools" id="polyJ"></label>
+            <label class="iconfont icon-tubiao tools" id="pencil"></label>
+            <hr size="3" width="100%">
+            <label class="iconfont icon-miaobian btn" active="true" id="stroke"></label>
+            <input type="color">
+            <label class="iconfont icon-tianchong btn" id="fill"></label>
+            <input type="color">
+            <hr size="3" width="100%">
+            <label class="iconfont icon-xiangpi"></label>
+            <label style="font-family: iconfont" class="word icon-wenzi iconfont"></label>
+            <label class="iconfont icon-caiqie"></label>
+        </div>
+        <div class="right">
+            <div class="top">
+                <p>&nbsp;&nbsp;&nbsp;新建&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;撤销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;保存&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;反向</p>
+                <label class="iconfont icon-xinjian"></label>
+                <label class="iconfont icon-chexiao"></label>
+                <a class="iconfont icon-baocun" download="canvas.png"></a>
+                <label class="iconfont reverse icon-yanse"></label>
+
+            </div>
+            <div class="bottom">
+                <canvas></canvas>
+                <div class="eraser"></div>
+                <div class="mask">
+                </div>
+                <div class="clip"></div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+</html>
+
+<script src="js/index.js"></script>
