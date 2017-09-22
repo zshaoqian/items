@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: '微软雅黑', sans-serif;
+
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 401329 */
+    src: url('http://at.alicdn.com/t/font_401329_xx772enjrj79o1or.eot');
+    src: url('http://at.alicdn.com/t/font_401329_xx772enjrj79o1or.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_401329_xx772enjrj79o1or.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_401329_xx772enjrj79o1or.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_401329_xx772enjrj79o1or.svg#iconfont') format('svg');
+}
+body,html{
+    width:100%;
+    height:100%;
+    background: url("../images/banner.jpg") top/cover;
+    /*background-position:top ;*/
+    /*background-size:cover ;*/
+}
+.main{
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.8);
+    filter: blur(3);
+    overflow: hidden;
+}
+.circle{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    background: rgba(70,80,80,0.8);
+    overflow: hidden;
+    position: absolute;
+    left:100px;
+    top:80px;
+}
+.circle1{
+    width:360px;
+    height:360px;
+    border-radius: 50%;
+    background: #000;
+    margin:20px auto;
+    overflow: hidden;
+}
+.circle2{
+    width:356px;
+    height:356px;
+    border-radius: 50%;
+    background: #333;
+    margin:2px auto;
+    overflow: hidden;
+}
+.circle3{
+    width:150px;
+    height:150px;
+    border:none;
+    border:2px solid #000;
+    border-radius: 50%;
+    background: #999;
+    margin:103px auto;
+    display: block;
+}
+.back{
+    font-family: 'iconfont';
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    float: left;
+}
+.xuanxiang{
+    font-family: 'iconfont';
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 24px;
+}
+main{
+    width:530px;
+    height:80%;
+    position: absolute;
+    left:700px;
+    top:80px;
+    padding:10px;
+}
+.controls{
+    font-family: 'iconfont';
+    position: absolute;
+    top:520px;
+    left:145px;
+}
+.suiji,.pre,.peaused,.next,.play,.volume{
+    float: left;
+    font-family: 'iconfont';
+    width:70px;
+    height:30px;
+    font-size: 26px;
+    cursor: pointer;
+    line-height: 30px;
+}
+.next{
+    margin-left: 85px;
+}
+.peaused{
+    position: absolute;
+    top:2px;
+    left:140px;
+    font-size: 40px;
+}
+.play{
+    position: absolute;
+    top:-1px;
+    left:140px;
+    display: none;
+    font-size: 40px;
+}
+.progress{
+    width:350px;
+    height:10px;
+    position: absolute;
+    top:580px;
+    left:130px;
+}
+.current{
+    float: left;
+}
+.end{
+    float: left;
+}
+.xian{
+    width:260px;
+    height:5px;
+    background: #000000;
+    float: left;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.xian>a{
+    width:0;
+    height:7px;
+    border-radius: 20px;
+    background: #ff6700;
+    display: block;
+}
+.song{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.singer{
+    font-size: 16px;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+}
+ul{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 15px;
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+}
+ul>li{
+    color: #f5f5f5;
+}
+.tools{
+    position: absolute;
+    bottom:35px;
+    left:110px;
+
+}
+.download,.menu,.fengxiang,.more,.like{
+    font-family: 'iconfont';
+    font-size: 26px;
+    float: left;
+    width:50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.volumes{
+    width:120px;
+    height: 34px;
+    background:rgba(56,56,56,1);
+    position: absolute;
+    left:345px;
+    top:0;
+
+}
+.display{
+    display: none;
+}
+.volumes1{
+    width:100px;
+    height:4px;
+    margin:14px auto;
+    background: #fff;
+    border-radius: 10px;
+
+}
+.volumes2{
+    width:10px;
+    height:4px;
+    border-radius: 10px;
+    background: #389aba;
+}
+.volumes>a{
+    width:15px;
+    height:15px;
+    /*border:5px solid #389aba;*/
+    border-radius: 50%;
+    background: #389aba;
+    position: absolute;
+    /*box-shadow: 0 0 5px 1px rgba(255,255,255,0.5);*/
+    left:10px;
+    top:8px;
+    cursor: pointer;
+}
