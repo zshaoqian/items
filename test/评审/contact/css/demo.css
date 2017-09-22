@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:0.8rem;
+    background: #389aba;
+    padding:0.08rem 0.15rem;
+    position: fixed;
+    top:0;
+    left:0;
+}
+input{
+    width:100%;
+    height:100%;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.8rem;
+    display: block;
+    border: none;
+    border-radius:0.12rem;
+    background: rgba(255,255,255,0.7);
+    outline: none;
+    border:0.01rem solid #999;
+}
+main{
+    width:100%;
+    background-image: linear-gradient(180deg,#389aba,#ccc);
+    height:auto;
+}
+dl{
+    width:100%;
+    padding-top: 0.9rem;
+}
+dt{
+    font-size: 0.32rem;
+    color: #000;
+    padding-left: 0.15rem;
+    width:100%;
+    height:0.6rem;
+    line-height: 0.6rem;
+    border-top: 0.01rem solid #b0b0b0;
+}
+dd{
+    font-size: 0.28rem;
+    color: #333;
+    padding-left:0.15rem;
+    width:100%;
+    height:0.6rem;
+    line-height: 0.6rem;
+
+}
+dd>a{
+    display: block;
+    width:98%;
+    height:100%;
+
+    text-decoration: none;
+    color: #333;
+}
+.tips{
+    font-size: 0.32rem;
+    color: #000;
+    padding-left: 0.15rem;
+    width:100%;
+    height:0.6rem;
+    line-height: 0.6rem;
+    border-top: 0.01rem solid #b0b0b0;
+    background: #389aba;
+    position: fixed;
+    top:0.8rem;
+    left:0;
+    z-index: 9999;
+}
+ul{
+    list-style: none;
+    width:0.3rem;
+    position: fixed;
+    right:0.15rem;
+    top:50%;
+}
+ul>li{
+    width:100%;
+    font-size: 0.28rem;
+}
